@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-color: #EDF2F4;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #000;
+  padding: 1rem 0;
+  position:relative;z-index:10;
+  box-shadow: 1px 5px 6px rgba(0,0,0,0.3);
+}
+
+li {
+  list-style: none;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+figure {
+  max-width: 200px;
+}
+
+figcaption {
+  margin-bottom: 1rem;
+  min-height: 30px;
+}
+
+.hero-list {
+  color: #EDF2F4;
+}
+
+.series-list {
+  color: #000;
+  margin-bottom: 83px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.alert {
+  font-size: 3rem;
+}
+
+.info {
+  background-color: #000;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+#hero-input {
+  width: 250px;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+#hero-submit {
+  border: none;
+  background-color: #F0141E;
+  color: #EDF2F4;
+  width: 60px;
+}
+
+header img {
+    display: block;
+    width: auto;
+    height: 3rem;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: 12rem;
+}
+
+.hero-list {
+  padding: 2rem; 0;
+  background-color: #F0141E;
+  color: #EDF2F4;
+}
+
+.series-list {
+  padding: 2rem; 0;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #000;
+  color: #EDF2F4;
+  text-align: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+}
+
+footer a, footer a:visited, footer a:focus {
+  color: #EDF2F4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #EF233C;
+}
